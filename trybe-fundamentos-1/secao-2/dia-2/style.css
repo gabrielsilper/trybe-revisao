@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-decoration: underline black;
+  font-size: 4em;
+  color: orange;
+}
+
+p {
+  font-weight: 600;
+  font-size: 3em;
+}
+
+ul {
+  font-style: italic;
+  line-height: 25px;
+  list-style-type: none;
+}
+
+ul li:nth-child(1) {
+  color: red;
+}
+
+ul li:nth-child(2) {
+  color: yellow;
+}
+
+ul li:nth-child(3) {
+  color: lightcoral;
+}
+
+.container {
+  background-color: rgb(202, 194, 194);
+  padding: 20px;
+  border-radius: 10px;
+}
