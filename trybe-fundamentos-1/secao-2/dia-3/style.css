@@ -1,0 +1,61 @@
+ol li {
+  background-color: yellow;
+}
+
+ol li:nth-child(even) {
+  color: green;
+}
+
+ol li:nth-child(odd) {
+  text-transform: capitalize;
+}
+
+h1, h2, h3 {
+  color: red;
+}
+
+h1, h2, h3 em {
+  font-size: 40px;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+ul:first-of-type li:nth-child(-n+3) {
+  color: blue;
+}
+
+ul:first-of-type li:nth-child(n+2):nth-child(-n+3) {
+    background-color: pink;
+}
+
+ul:nth-of-type(2) li:nth-child(1) a:hover {
+    color: orange;
+    font-weight: bold;
+}
+
+ul:nth-of-type(2) li:nth-child(2) a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+ul:nth-of-type(2) li:nth-child(3) a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+ul:nth-of-type(2) li:nth-child(4) a:hover {
+    color: yellow;
+    font-weight: bold;
+}
+
+ul:nth-of-type(2) li:nth-child(5) a:hover {
+    color: green;
+    font-weight: bold;
+}
+
