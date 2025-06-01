@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "execute": "npx ts-node src/2224.ts",
-    "others": "npx ts-node src/2224-others.ts",
+    "execute": "npx ts-node src/desafio-38/38.ts",
+    "others": "npx ts-node src/desafio-38/38-others.ts",
     "build": "npx tsc"
   },
   "author": "gabrielsilper",
