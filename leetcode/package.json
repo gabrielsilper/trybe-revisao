@@ -1,0 +1,19 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "execute": "npx ts-node src/2224.ts",
+    "others": "npx ts-node src/2224-others.ts",
+    "build": "npx tsc"
+  },
+  "author": "gabrielsilper",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.27",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
